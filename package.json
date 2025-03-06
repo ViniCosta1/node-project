@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./src/server/app.js",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node ./src/server/app.js",
     "dev:server": "nodemon -w",
     "dev:client": "webpack serve --mode development --open",
     "build": "webpack --mode production",
